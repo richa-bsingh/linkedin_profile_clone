@@ -68,13 +68,13 @@ const LinkedInProfileClone = () => {
         {
           "title": "AI To-Do List Bot",
           "description": "Developed a Discord bot integrating AI-powered task management, gamified achievements, motivational quotes, and OpenAI-generated interactions to enhance productivity and engagement.",
-          "image": "src/images/Screenshot 2025-02-23 at 2.50.27 PM.png",
+          "image": "images/Screenshot 2025-02-23 at 2.50.27 PM.png",
           "link": "#"
         },
         {
           "title": "Remote Work & Mental Health Dashboard",
           "description": "Built a Streamlit app to analyze the impact of remote work on mental health using interactive visualizations, including stress heatmaps, work-life balance trends, and mental health resource accessibility.",
-          "image": "src/images/Screenshot 2025-02-23 at 2.50.15 PM.png",
+          "image": "images/Screenshot 2025-02-23 at 2.50.15 PM.png",
           "link": "https://work-stress-dashboard.streamlit.app/"
         }      
     ],
@@ -85,7 +85,7 @@ const LinkedInProfileClone = () => {
         duration: "Feb 2024 - Present",
         location: "New Jersey",
         description: "Optimized multi-terabyte data processing by developing multiprocessing scripts and Airflow DAGs, reducing pre-processing time by 40% while enhancing anomaly detection with an ensemble of advanced methods.",
-        companyLogo: "src/images/Logo_of_New_Jersey_Institute_of_Technology.png",
+        companyLogo: "images/Logo_of_New_Jersey_Institute_of_Technology.png",
         technologies: ["SQL", "Matillion", "Snowflake", "Oracle", "MicroStrategy", "Splunk", "Python", "REST APIs", "Data Modelling"]
       },
       {
@@ -94,7 +94,7 @@ const LinkedInProfileClone = () => {
         duration: "Sep 2024 – Dec 2024",
         location: "New Jersey",
         description: "Designed robust ETL pipelines using SQL and Matillion to streamline data workflows, developed KPI validation scripts for MicroStrategy, and integrated REST APIs into Splunk dashboards, cutting incident response times by 90%.",
-        companyLogo: "src/images/Verizon-New-Logo.webp",
+        companyLogo: "images/Verizon-New-Logo.webp",
         technologies: ["Python", "Airflow", "scikit-learn", "TensorFlow", "Keras", "Django", "React", "AWS"]
       },
       {
@@ -103,7 +103,7 @@ const LinkedInProfileClone = () => {
         duration: "Aug 2020 – Jun 2023",
         location: "India",
         description: "Transformed data ingestion pipelines with Databricks, reducing processing costs by 85%, and maintained 99% uptime through AWS blue-green deployments, while implementing CI/CD pipelines to expedite software delivery by 30%.",
-        companyLogo: "src/images/Logo_JD.png",
+        companyLogo: "images/Logo_JD.png",
         technologies: ["Databricks", "AWS (EC2, RDS, Elastic Beanstalk)", "Spark", "Python", "GitHub Actions", "Jenkins", "Power Automate", "SQL", "ServiceNow"]
       }
     ],
@@ -113,7 +113,7 @@ const LinkedInProfileClone = () => {
         degree: "MS in Computer Science",
         duration: "2023 - 2025",
         description: "Pursuing a Master’s in Computer Science with a focus on data engineering, machine learning, and cloud computing, applying advanced techniques to optimize data workflows and predictive analytics.",
-        schoolLogo: "src/images/Logo_of_New_Jersey_Institute_of_Technology.png",
+        schoolLogo: "images/Logo_of_New_Jersey_Institute_of_Technology.png",
         activities: ["WICs", "Hackathon Winner"]
       },
       {
@@ -121,7 +121,7 @@ const LinkedInProfileClone = () => {
         degree: "B.Tech in Computer Engineering",
         duration: "2016 - 2020",
         description: "Completed a Bachelor’s in Computer Engineering with a strong foundation in algorithms, software development, and distributed systems, gaining hands-on experience in full-stack development and cloud technologies.",
-        schoolLogo: "src/images/NIT_Surat_Logo.svg.png",
+        schoolLogo: "images/NIT_Surat_Logo.svg.png",
         activities: ["Dance Club Lead","Arts Club Lead"]
       }
     ],
@@ -130,34 +130,34 @@ const LinkedInProfileClone = () => {
         { "name": "Python", "icon": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" },
         { "name": "Java", "icon": "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" },
         { "name": "R", "icon": "https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg" },
-        { "name": "Shell Scripting", "icon": "src/images/shell.png" },
-        { "name": "Scala", "icon": "src/images/scala.png" },
+        { "name": "Shell Scripting", "icon": "images/shell.png" },
+        { "name": "Scala", "icon": "images/scala.png" },
         { "name": "SQL", "icon": "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" },
-        { "name": "Snowflake", "icon": "src/images/snowflake.png" },
-        { "name": "AWS", "icon": "src/images/aws.png" },
-        { "name": "Azure", "icon": "src/images/azure.png" },
+        { "name": "Snowflake", "icon": "images/snowflake.png" },
+        { "name": "AWS", "icon": "images/aws.png" },
+        { "name": "Azure", "icon": "images/azure.png" },
         { "name": "PostgreSQL", "icon": "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" },
-        { "name": "MySQL", "icon": "src/images/mysql.png" },
-        { "name": "MongoDB", "icon": "src/images/mongodb.svg" },
+        { "name": "MySQL", "icon": "images/mysql.png" },
+        { "name": "MongoDB", "icon": "images/mongodb.svg" },
         { "name": "Hadoop", "icon": "https://upload.wikimedia.org/wikipedia/commons/3/38/Hadoop_logo_new.svg" },
         { "name": "Spark", "icon": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" },
-        { "name": "Databricks", "icon": "src/images/databricks.png" },
-        { "name": "Airflow", "icon": "src/images/airflow.png" },
-        { "name": "Matillion", "icon": "src/images/matillion.png" },
-        { "name": "Splunk", "icon": "src/images/splunk.png" },
-        { "name": "Tableau", "icon": "src/images/tableau.png" },
+        { "name": "Databricks", "icon": "images/databricks.png" },
+        { "name": "Airflow", "icon": "images/airflow.png" },
+        { "name": "Matillion", "icon": "images/matillion.png" },
+        { "name": "Splunk", "icon": "images/splunk.png" },
+        { "name": "Tableau", "icon": "images/tableau.png" },
         { "name": "Power BI", "icon": "https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" },
-        { "name": "MicroStrategy", "icon": "src/images/microstrategy.png" },
-        { "name": "Streamlit", "icon": "src/images/streamlit.svg" },
-        { "name": "Excel", "icon": "src/images/excel.png" },
+        { "name": "MicroStrategy", "icon": "images/microstrategy.png" },
+        { "name": "Streamlit", "icon": "images/streamlit.svg" },
+        { "name": "Excel", "icon": "images/excel.png" },
         { "name": "GitHub", "icon": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" },
-        { "name": "ServiceNow", "icon": "src/images/ServiceNow-Symbol.png" },
+        { "name": "ServiceNow", "icon": "images/ServiceNow-Symbol.png" },
         { "name": "React", "icon": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" },
-        { "name": "Django", "icon": "src/images/dj.svg" },
+        { "name": "Django", "icon": "images/dj.svg" },
         { "name": "Jenkins", "icon": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Jenkins_logo.svg" },
-        { "name": "GitHub Actions", "icon": "src/images/ga.png" },
-        { "name": "Power Automate", "icon": "src/images/pa.png" },
-        { "name": "REST APIs", "icon": "src/images/rest.png" }
+        { "name": "GitHub Actions", "icon": "images/ga.png" },
+        { "name": "Power Automate", "icon": "images/pa.png" },
+        { "name": "REST APIs", "icon": "images/rest.png" }
       ]
       ,
     achievements: [
@@ -172,73 +172,73 @@ const LinkedInProfileClone = () => {
           "name": "AWS Academy Graduate - AWS Academy Cloud Developing",
           "issuer": "Amazon Web Services (AWS)",
           "date": "December 2024",
-          "badge": "src/images/aws.png"
+          "badge": "images/aws.png"
         },
         {
           "name": "TensorFlow: Neural Networks and Working with Tables",
           "issuer": "LinkedIn",
           "date": "December 2024",
-          "badge": "src/images/linkedin.png"
+          "badge": "images/linkedin.png"
         },
         {
           "name": "Alteryx Foundational Micro-Credential",
           "issuer": "Alteryx",
           "date": "November 2024",
-          "badge": "src/images/alteryx.png"
+          "badge": "images/alteryx.png"
         },
         {
           "name": "Intro to Splunk",
           "issuer": "Splunk",
           "date": "October 2024",
-          "badge": "src/images/splunk.png"
+          "badge": "images/splunk.png"
         },
         {
           "name": "Introduction to Splunk SOAR",
           "issuer": "Splunk",
           "date": "October 2024",
-          "badge": "src/images/splunk.png"
+          "badge": "images/splunk.png"
         },
         {
           "name": "Academy Accreditation - Generative AI Fundamentals",
           "issuer": "Databricks",
           "date": "September 2024",
-          "badge": "src/images/databricks.png"
+          "badge": "images/databricks.png"
         },
         {
           "name": "Python: Working with Predictive Analytics",
           "issuer": "LinkedIn",
           "date": "September 2024",
-          "badge": "src/images/linkedin.png"
+          "badge": "images/linkedin.png"
         },
         {
           "name": "Matillion Academy | Python in Matillion ETL",
           "issuer": "Matillion",
           "date": "February 2024",
-          "badge": "src/images/matillion.png"
+          "badge": "images/matillion.png"
         },
         {
           "name": "Matillion Data Productivity Cloud, Foundations",
           "issuer": "Matillion",
           "date": "January 2024",
-          "badge": "src/images/matillion.png"
+          "badge": "images/matillion.png"
         },
         {
           "name": "AWS Certified Cloud Practitioner",
           "issuer": "Amazon Web Services (AWS)",
           "date": "December 2021",
-          "badge": "src/images/aws.png"
+          "badge": "images/aws.png"
         },
         {
           "name": "Academy Accreditation - Databricks Lakehouse Fundamentals",
           "issuer": "Databricks",
           "date": "October 2023",
-          "badge": "src/images/databricks.png"
+          "badge": "images/databricks.png"
         },
         {
           "name": "Scrum Team Member",
           "issuer": "Scrum Inc.",
           "date": "2020",
-          "badge": "src/images/scrum.jpeg"
+          "badge": "images/scrum.jpeg"
         }
       ]
       
@@ -291,6 +291,10 @@ const LinkedInProfileClone = () => {
             </a> */}
           </div>
         </div>
+        <footer className="w-full bg-gray-100 py-4 text-center text-gray-600 text-sm">
+        &copy; {new Date().getFullYear()} Richa Singh. All rights reserved.
+        </footer>
+
       </div>
     ),
     experience: (
@@ -457,7 +461,7 @@ const LinkedInProfileClone = () => {
               <div className="flex items-center space-x-4">
                 {isHeaderSticky && (
                   <img 
-                    src="src/images/1.jpeg" 
+                    src="images/1.jpeg" 
                     alt="Profile" 
                     className="w-10 h-10 rounded-full border-2 border-white" 
                   />
@@ -486,7 +490,7 @@ const LinkedInProfileClone = () => {
           <div className="bg-gradient-to-r from-pink-400 to-blue-400 h-48 rounded-t-lg relative">
             <div className="absolute bottom-0 left-4 transform translate-y-1/2">
               <img 
-                src="src/images/1.jpeg" 
+                src="images/1.jpeg" 
                 alt="Profile" 
                 className="w-40 h-40 rounded-full border-4 border-white shadow-lg" 
               />
