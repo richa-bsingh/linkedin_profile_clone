@@ -53,96 +53,195 @@ const LinkedInProfileClone = () => {
   };
 
   const profileData = {
-    name: "Sarah Johnson",
-    headline: "Senior Software Engineer | Cloud & AI Specialist",
-    location: "San Francisco Bay Area",
-    email: "sarah.johnson@example.com",
-    website: "https://sarahjohnson.dev",
-    github: "github.com/sarahjohnson",
-    twitter: "twitter.com/sarahjohnsondev",
-    connectionsCount: 787,
-    profileViews: 2354,
-    about: "Passionate technologist with 8+ years of experience in building scalable cloud solutions and AI-driven applications. Specializing in microservices architecture, machine learning integration, and innovative software design.",
-    featuredWork: [
-      {
-        title: "AI-Powered Analytics Platform",
-        description: "Led the development of a real-time analytics platform processing 1M+ events/second",
-        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=300&h=200&fit=crop",
-        link: "#"
-      },
-      {
-        title: "Cloud Migration Framework",
-        description: "Created an automated framework reducing migration time by 60%",
-        image: "https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=300&h=200&fit=crop",
-        link: "#"
-      }
+    name: "Richa Singh",
+    headline: "Business Intelligence and Data Intern | Data & AI Enthusiast",
+    location: "New York City",
+    email: "richabhanusingh@gmail.com",
+    website: "https://richa-bsingh.github.io",
+    github: "github.com/richa-bsingh",
+    // twitter: "twitter.com/sarahjohnsondev",
+    connectionsCount: 855,
+    profileViews: 200,
+    about: "I'm a data-driven problem solver specializing in building scalable solutions—from data pipelines to anomaly detection—who thrives on turning complex challenges into actionable insights. With expertise across Python, Spark, and AWS, I’m passionate about accelerating innovation and business growth through technology.",
+    featuredWork: 
+      [
+        {
+          "title": "AI To-Do List Bot",
+          "description": "Developed a Discord bot integrating AI-powered task management, gamified achievements, motivational quotes, and OpenAI-generated interactions to enhance productivity and engagement.",
+          "image": "src/images/Screenshot 2025-02-23 at 2.50.27 PM.png",
+          "link": "#"
+        },
+        {
+          "title": "Remote Work & Mental Health Dashboard",
+          "description": "Built a Streamlit app to analyze the impact of remote work on mental health using interactive visualizations, including stress heatmaps, work-life balance trends, and mental health resource accessibility.",
+          "image": "src/images/Screenshot 2025-02-23 at 2.50.15 PM.png",
+          "link": "https://work-stress-dashboard.streamlit.app/"
+        }      
     ],
     experience: [
       {
-        company: "TechGiant Innovations",
-        title: "Senior Software Engineer",
-        duration: "Jan 2021 - Present",
-        location: "San Francisco, CA",
-        description: "Lead architect for cloud-native microservices platform. Developed AI-powered DevOps tools increasing deployment efficiency by 40%.",
-        companyLogo: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?w=80&h=80&fit=crop",
-        technologies: ["React", "Node.js", "AWS", "Kubernetes", "TensorFlow"]
+        company: "New Jersey Institute of Technology",
+        title: "Business Intelligence and Data Intern",
+        duration: "Feb 2024 - Present",
+        location: "New Jersey",
+        description: "Optimized multi-terabyte data processing by developing multiprocessing scripts and Airflow DAGs, reducing pre-processing time by 40% while enhancing anomaly detection with an ensemble of advanced methods.",
+        companyLogo: "src/images/Logo_of_New_Jersey_Institute_of_Technology.png",
+        technologies: ["SQL", "Matillion", "Snowflake", "Oracle", "MicroStrategy", "Splunk", "Python", "REST APIs", "Data Modelling"]
       },
       {
-        company: "StartUp Solutions",
-        title: "Software Developer",
-        duration: "Jun 2018 - Dec 2020",
-        location: "San Jose, CA",
-        description: "Implemented full-stack solutions using React and Node.js. Designed scalable backend systems for high-traffic web applications.",
-        companyLogo: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=80&h=80&fit=crop",
-        technologies: ["React", "Node.js", "MongoDB", "Docker"]
+        company: "Verizon",
+        title: "Data Scientist – Graduate Intern",
+        duration: "Sep 2024 – Dec 2024",
+        location: "New Jersey",
+        description: "Designed robust ETL pipelines using SQL and Matillion to streamline data workflows, developed KPI validation scripts for MicroStrategy, and integrated REST APIs into Splunk dashboards, cutting incident response times by 90%.",
+        companyLogo: "src/images/Verizon-New-Logo.webp",
+        technologies: ["Python", "Airflow", "scikit-learn", "TensorFlow", "Keras", "Django", "React", "AWS"]
+      },
+      {
+        company: "John Deere India Pvt. Ltd.",
+        title: "Senior Software Engineer 1 – GITI Data and Analytics",
+        duration: "Aug 2020 – Jun 2023",
+        location: "India",
+        description: "Transformed data ingestion pipelines with Databricks, reducing processing costs by 85%, and maintained 99% uptime through AWS blue-green deployments, while implementing CI/CD pipelines to expedite software delivery by 30%.",
+        companyLogo: "src/images/Logo_JD.png",
+        technologies: ["Databricks", "AWS (EC2, RDS, Elastic Beanstalk)", "Spark", "Python", "GitHub Actions", "Jenkins", "Power Automate", "SQL", "ServiceNow"]
       }
     ],
     education: [
       {
-        school: "Stanford University",
-        degree: "Master of Science in Computer Science",
-        duration: "2016 - 2018",
-        description: "Advanced coursework in distributed systems, machine learning, and cloud computing.",
-        schoolLogo: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=80&h=80&fit=crop",
-        activities: ["AI Research Lab", "Cloud Computing Club"]
+        school: "New Jersey Institute of Technology",
+        degree: "MS in Computer Science",
+        duration: "2023 - 2025",
+        description: "Pursuing a Master’s in Computer Science with a focus on data engineering, machine learning, and cloud computing, applying advanced techniques to optimize data workflows and predictive analytics.",
+        schoolLogo: "src/images/Logo_of_New_Jersey_Institute_of_Technology.png",
+        activities: ["WICs", "Hackathon Winner"]
       },
       {
-        school: "UC Berkeley",
-        degree: "Bachelor of Science in Computer Engineering",
-        duration: "2012 - 2016",
-        description: "Specialized in embedded systems and software engineering principles.",
-        schoolLogo: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=80&h=80&fit=crop",
-        activities: ["Robotics Team Lead", "Hackathon Winner"]
+        school: "Sardar Vallabhbhai National Institute of Technology, Surat",
+        degree: "B.Tech in Computer Engineering",
+        duration: "2016 - 2020",
+        description: "Completed a Bachelor’s in Computer Engineering with a strong foundation in algorithms, software development, and distributed systems, gaining hands-on experience in full-stack development and cloud technologies.",
+        schoolLogo: "src/images/NIT_Surat_Logo.svg.png",
+        activities: ["Dance Club Lead","Arts Club Lead"]
       }
     ],
-    skills: [
-      { name: 'React', icon: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=80&h=80&fit=crop', endorsements: 127 },
-      { name: 'Cloud Architecture', icon: 'https://images.unsplash.com/photo-1603695762547-fba8b88ac8ad?w=80&h=80&fit=crop', endorsements: 98 },
-      { name: 'Machine Learning', icon: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=80&h=80&fit=crop', endorsements: 84 },
-      { name: 'Microservices', icon: 'https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=80&h=80&fit=crop', endorsements: 76 },
-      { name: 'TypeScript', icon: 'https://images.unsplash.com/photo-1599507593499-a3f7d7d97667?w=80&h=80&fit=crop', endorsements: 92 },
-      { name: 'Node.js', icon: 'https://images.unsplash.com/photo-1561736778-92e52a7769ef?w=80&h=80&fit=crop', endorsements: 115 }
-    ],
+    skills: 
+      [
+        { "name": "Python", "icon": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" },
+        { "name": "Java", "icon": "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" },
+        { "name": "R", "icon": "https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg" },
+        { "name": "Shell Scripting", "icon": "src/images/shell.png" },
+        { "name": "Scala", "icon": "src/images/scala.png" },
+        { "name": "SQL", "icon": "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" },
+        { "name": "Snowflake", "icon": "src/images/snowflake.png" },
+        { "name": "AWS", "icon": "src/images/aws.png" },
+        { "name": "Azure", "icon": "src/images/azure.png" },
+        { "name": "PostgreSQL", "icon": "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" },
+        { "name": "MySQL", "icon": "src/images/mysql.png" },
+        { "name": "MongoDB", "icon": "src/images/mongodb.svg" },
+        { "name": "Hadoop", "icon": "https://upload.wikimedia.org/wikipedia/commons/3/38/Hadoop_logo_new.svg" },
+        { "name": "Spark", "icon": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" },
+        { "name": "Databricks", "icon": "src/images/databricks.png" },
+        { "name": "Airflow", "icon": "src/images/airflow.png" },
+        { "name": "Matillion", "icon": "src/images/matillion.png" },
+        { "name": "Splunk", "icon": "src/images/splunk.png" },
+        { "name": "Tableau", "icon": "src/images/tableau.png" },
+        { "name": "Power BI", "icon": "https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" },
+        { "name": "MicroStrategy", "icon": "src/images/microstrategy.png" },
+        { "name": "Streamlit", "icon": "src/images/streamlit.svg" },
+        { "name": "Excel", "icon": "src/images/excel.png" },
+        { "name": "GitHub", "icon": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" },
+        { "name": "ServiceNow", "icon": "src/images/ServiceNow-Symbol.png" },
+        { "name": "React", "icon": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" },
+        { "name": "Django", "icon": "src/images/dj.svg" },
+        { "name": "Jenkins", "icon": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Jenkins_logo.svg" },
+        { "name": "GitHub Actions", "icon": "src/images/ga.png" },
+        { "name": "Power Automate", "icon": "src/images/pa.png" },
+        { "name": "REST APIs", "icon": "src/images/rest.png" }
+      ]
+      ,
     achievements: [
-      "Patent: Distributed Computing Optimization",
-      "Speaker at International AI Conference 2022",
-      "Open Source Contributor of the Year",
-      "Published Research: Machine Learning in Cloud Environments"
+      "Top 5 HackNJIT 2024 Hackathon Winner",
+      "GirlHacks 2023 Hackathon Winner- 2nd Place and For Best use of Google Cloud",
+      "Best Team Sprint - 2023",
+      "Best Team Player - 2021"
     ],
-    certifications: [
-      {
-        name: "AWS Solutions Architect Professional",
-        issuer: "Amazon Web Services",
-        date: "2023",
-        badge: "https://images.unsplash.com/photo-1523289333742-be1143f6b766?w=80&h=80&fit=crop"
-      },
-      {
-        name: "Google Cloud Professional Architect",
-        issuer: "Google",
-        date: "2022",
-        badge: "https://images.unsplash.com/photo-1481487196290-c152efe083f5?w=80&h=80&fit=crop"
-      }
-    ]
+    certifications:
+      [
+        {
+          "name": "AWS Academy Graduate - AWS Academy Cloud Developing",
+          "issuer": "Amazon Web Services (AWS)",
+          "date": "December 2024",
+          "badge": "src/images/aws.png"
+        },
+        {
+          "name": "TensorFlow: Neural Networks and Working with Tables",
+          "issuer": "LinkedIn",
+          "date": "December 2024",
+          "badge": "src/images/linkedin.png"
+        },
+        {
+          "name": "Alteryx Foundational Micro-Credential",
+          "issuer": "Alteryx",
+          "date": "November 2024",
+          "badge": "src/images/alteryx.png"
+        },
+        {
+          "name": "Intro to Splunk",
+          "issuer": "Splunk",
+          "date": "October 2024",
+          "badge": "src/images/splunk.png"
+        },
+        {
+          "name": "Introduction to Splunk SOAR",
+          "issuer": "Splunk",
+          "date": "October 2024",
+          "badge": "src/images/splunk.png"
+        },
+        {
+          "name": "Academy Accreditation - Generative AI Fundamentals",
+          "issuer": "Databricks",
+          "date": "September 2024",
+          "badge": "src/images/databricks.png"
+        },
+        {
+          "name": "Python: Working with Predictive Analytics",
+          "issuer": "LinkedIn",
+          "date": "September 2024",
+          "badge": "src/images/linkedin.png"
+        },
+        {
+          "name": "Matillion Academy | Python in Matillion ETL",
+          "issuer": "Matillion",
+          "date": "February 2024",
+          "badge": "src/images/matillion.png"
+        },
+        {
+          "name": "Matillion Data Productivity Cloud, Foundations",
+          "issuer": "Matillion",
+          "date": "January 2024",
+          "badge": "src/images/matillion.png"
+        },
+        {
+          "name": "AWS Certified Cloud Practitioner",
+          "issuer": "Amazon Web Services (AWS)",
+          "date": "December 2021",
+          "badge": "src/images/aws.png"
+        },
+        {
+          "name": "Academy Accreditation - Databricks Lakehouse Fundamentals",
+          "issuer": "Databricks",
+          "date": "October 2023",
+          "badge": "src/images/databricks.png"
+        },
+        {
+          "name": "Scrum Team Member",
+          "issuer": "Scrum Inc.",
+          "date": "2020",
+          "badge": "src/images/scrum.jpeg"
+        }
+      ]
+      
   };
 
   const TabContent = {
@@ -186,10 +285,10 @@ const LinkedInProfileClone = () => {
               <Github size={18} />
               <span>{profileData.github}</span>
             </a>
-            <a href={`https://${profileData.twitter}`} className="flex items-center space-x-2 text-gray-600 hover:text-pink-600">
+            {/* <a href={`https://${profileData.twitter}`} className="flex items-center space-x-2 text-gray-600 hover:text-pink-600">
               <Twitter size={18} />
               <span>{profileData.twitter}</span>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
@@ -282,15 +381,15 @@ const LinkedInProfileClone = () => {
                 </div>
                 <div className="flex-1">
                   <h3 className="font-semibold text-gray-800">{skill.name}</h3>
-                  <p className="text-sm text-gray-500">{skill.endorsements} endorsements</p>
+                  {/* <p className="text-sm text-gray-500">{skill.endorsements} endorsements</p> */}
                 </div>
               </div>
-              <div className="mt-3 w-full bg-gray-200 rounded-full h-1.5">
+              {/* <div className="mt-3 w-full bg-gray-200 rounded-full h-1.5">
                 <div 
                   className="bg-blue-500 h-1.5 rounded-full transition-all duration-300 group-hover:bg-pink-500"
                   style={{ width: `${(skill.endorsements / 150) * 100}%` }}
                 ></div>
-              </div>
+              </div> */}
             </div>
           ))}
         </div>
@@ -358,7 +457,7 @@ const LinkedInProfileClone = () => {
               <div className="flex items-center space-x-4">
                 {isHeaderSticky && (
                   <img 
-                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=50&h=50&fit=crop" 
+                    src="src/images/1.jpeg" 
                     alt="Profile" 
                     className="w-10 h-10 rounded-full border-2 border-white" 
                   />
@@ -366,17 +465,17 @@ const LinkedInProfileClone = () => {
                 <h1 className="text-lg font-semibold text-gray-900">{profileData.name}</h1>
               </div>
               <div className="flex items-center space-x-3">
-                <button className="flex items-center space-x-2 px-4 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors">
+                {/* <button className="flex items-center space-x-2 px-4 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors">
                   <MessageSquare size={16} />
                   <span>Message</span>
                 </button>
                 <button className="flex items-center space-x-2 px-4 py-2 border border-blue-600 text-blue-600 rounded-full hover:bg-blue-50 transition-colors">
                   <UserPlus size={16} />
                   <span>Connect</span>
-                </button>
-                <button className="p-2 text-gray-600 hover:bg-gray-100 rounded-full transition-colors">
+                </button> */}
+                {/* <button className="p-2 text-gray-600 hover:bg-gray-100 rounded-full transition-colors">
                   <Share2 size={20} />
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
@@ -387,7 +486,7 @@ const LinkedInProfileClone = () => {
           <div className="bg-gradient-to-r from-pink-400 to-blue-400 h-48 rounded-t-lg relative">
             <div className="absolute bottom-0 left-4 transform translate-y-1/2">
               <img 
-                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop" 
+                src="src/images/1.jpeg" 
                 alt="Profile" 
                 className="w-40 h-40 rounded-full border-4 border-white shadow-lg" 
               />
@@ -416,12 +515,18 @@ const LinkedInProfileClone = () => {
                 </div>
               </div>
               <div className="flex space-x-3">
-                <button className="px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors">
-                  Connect
+              <a href="https://www.linkedin.com/in/richa-singh-78935438/" target="_blank" rel="noopener noreferrer">
+              <button className="flex items-center space-x-2 px-4 py-2 border border-blue-600 text-blue-600 rounded-full hover:bg-blue-50 transition-colors">
+                  <UserPlus size={16} />
+                  <span>Connect</span>
                 </button>
-                <button className="px-6 py-2 border border-blue-600 text-blue-600 rounded-full hover:bg-blue-50 transition-colors">
-                  Message
+                </a>
+                <a href="https://www.linkedin.com/in/richa-singh-78935438/" target="_blank" rel="noopener noreferrer">
+                <button className="flex items-center space-x-2 px-4 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors">
+                <MessageSquare size={16} />
+                <span> Message </span>
                 </button>
+                </a>
               </div>
             </div>
           </div>
