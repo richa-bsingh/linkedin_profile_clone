@@ -76,7 +76,14 @@ const LinkedInProfileClone = () => {
           "description": "Built a Streamlit app to analyze the impact of remote work on mental health using interactive visualizations, including stress heatmaps, work-life balance trends, and mental health resource accessibility.",
           "image": "images/Screenshot 2025-02-23 at 2.50.15 PM.png",
           "link": "https://work-stress-dashboard.streamlit.app/"
-        }      
+        },
+        {
+          "title": "F1 ML Prediction Dashboard",
+          "description": "Developed an interactive dashboard using React and Flask, leveraging machine learning to predict Formula 1 race results based on historical race data and weather conditions. Features visual race pace comparisons and dynamic Grand Prix insights.",
+          "image": "images/f1_dashboard.png",
+          "link": "https://github.com/richa-bsingh/f1-prediction-project"
+        }
+              
     ],
     experience: [
       {
